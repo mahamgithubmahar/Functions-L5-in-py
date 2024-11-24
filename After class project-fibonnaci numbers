@@ -1,8 +1,8 @@
 def fibonnaci(n):
     if n==0:
-        return n
+        return 0
     elif n==1 or n==2:
-        return n
+        return 1
     else:
         return fibonnaci(n-1)+fibonnaci(n-2)
 num=int(input("Enter a number "))
